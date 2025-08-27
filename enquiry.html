@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Volunteer & Donate | Durban Animal Rescue</title>
+<link rel="stylesheet" href="css/style.css">
+<meta name="description" content="Durban Animal Rescue website">
+</head>
+<body>
+<header>
+  <div class="nav" role="navigation" aria-label="Main">
+    <div class="logo">Durban Animal Rescue</div>
+    <nav>
+      <a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="adopt.html">Adopt a Pet</a>
+<a href="enquiry.html">Volunteer & Donate</a>
+<a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section class="grid">
+  <div class="card">
+    <h2 id="adoption">Adoption / Volunteer Enquiry</h2>
+    <form class="form" data-validate="true" action="#" method="post">
+      <fieldset>
+        <legend>Your Details</legend>
+        <label for="name">Full Name *</label>
+        <input id="name" name="name" required>
+        <label for="email">Email *</label>
+        <input id="email" name="email" type="email" required>
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" placeholder="+27...">
+      </fieldset>
+      <fieldset>
+        <legend>I'm interested in *</legend>
+        <label><input type="checkbox" name="interest" value="adopt" required> Adoption</label>
+        <label><input type="checkbox" name="interest" value="volunteer"> Volunteering</label>
+        <label><input type="checkbox" name="interest" value="sponsor"> Sponsorship</label>
+      </fieldset>
+      <label for="msg">Message</label>
+      <textarea id="msg" name="message" rows="5" placeholder="Tell us about your home, experience with pets, and preferred animal."></textarea>
+      <button class="btn" type="submit">Send Enquiry</button>
+      <p class="note">This demo form does not submit anywhere in the PoE; it demonstrates structure and validation.</p>
+    </form>
+  </div>
+  <div class="card">
+    <h2>Donate</h2>
+    <p>Direct EFT preferred. Use reference: <strong>DAR DONATION</strong>.</p>
+    <table class="table">
+      <tr><th>Bank</th><td>FNB</td></tr>
+      <tr><th>Account</th><td>123456789</td></tr>
+      <tr><th>Branch</th><td>220426</td></tr>
+    </table>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="inner">
+    <div>&copy; <span id="year"></span> Durban Animal Rescue. All rights reserved.</div>
+    <div class="note"> formative PoE </div>
+  </div>
+  <script src="js/script.js"></script>
+</footer>
+</body>
+</html>

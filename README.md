@@ -1,4 +1,4 @@
-Proposal 1
+
 Five-page HTML for POE formative 1 PART 1
 
 Niven Padayachy -ST10471559
@@ -25,5 +25,4 @@ Founded in 2012, DAR is a local non-profit organization that rescues stray, aban
 •	Week 3–4: Initial coding (HTML, CSS).
 •	Week 5: Content integration and testing.
 •	Week 6: Final deployment.
-
 
